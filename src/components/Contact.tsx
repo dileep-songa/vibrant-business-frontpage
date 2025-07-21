@@ -64,7 +64,7 @@ export const Contact = () => {
     {
       icon: Mail,
       title: "Email",
-      details: ["hello@digitalpro.com", "support@digitalpro.com"],
+      details: ["hello@novaedge.com", "support@novaedge.com"],
       color: "text-green-600"
     },
     {

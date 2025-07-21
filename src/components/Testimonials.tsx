@@ -9,7 +9,7 @@ export const Testimonials = () => {
       company: "Bloom Bakery",
       image: "👩‍💼",
       rating: 5,
-      text: "DigitalPro transformed our online presence completely. Our website looks amazing and our online orders have increased by 300% in just 6 months. Their team is professional, responsive, and truly understands small business needs."
+      text: "NovaEdge transformed our business operations completely. Our efficiency has improved dramatically and our revenue has increased by 300% in just 6 months. Their team is professional, responsive, and truly understands small business needs."
     },
     {
       name: "Michael Chen",
@@ -30,7 +30,7 @@ export const Testimonials = () => {
       company: "Thompson Law Firm",
       image: "👨‍💼",
       rating: 5,
-      text: "Professional, reliable, and results-driven. DigitalPro helped us establish a strong online presence and now we're getting high-quality leads regularly. Their attention to detail and strategic approach impressed us from day one."
+      text: "Professional, reliable, and results-driven. NovaEdge helped us establish a strong market presence and now we're getting high-quality leads regularly. Their attention to detail and strategic approach impressed us from day one."
     },
     {
       name: "Lisa Park",
@@ -44,7 +44,7 @@ export const Testimonials = () => {
       company: "Home Renovation Plus",
       image: "👷‍♂️",
       rating: 5,
-      text: "DigitalPro's digital marketing strategy helped us double our business in one year. The lead generation system they set up brings us consistent, high-quality prospects. Best investment we've made for our business."
+      text: "NovaEdge's business strategy helped us double our revenue in one year. The systems they implemented bring us consistent, high-quality results. Best investment we've made for our business."
     }
   ];
 
@@ -65,7 +65,7 @@ export const Testimonials = () => {
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">What Our Clients Say</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Don't just take our word for it. Here's what real business owners have to say about their experience with DigitalPro.
+            Don't just take our word for it. Here's what real business owners have to say about their experience with NovaEdge.
           </p>
         </div>
 

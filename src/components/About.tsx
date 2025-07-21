@@ -30,10 +30,10 @@ export const About = () => {
     <section id="about" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">About DigitalPro</h2>
+          <h2 className="text-4xl font-bold text-gray-900 mb-4">About NovaEdge</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Founded in 2019, DigitalPro has been at the forefront of digital transformation, 
-            helping small and medium businesses establish their online presence and achieve remarkable growth.
+            Founded in 2019, NovaEdge has been at the forefront of business transformation, 
+            helping small and medium businesses establish their market presence and achieve remarkable growth.
           </p>
         </div>
 
@@ -41,9 +41,9 @@ export const About = () => {
           <div className="space-y-6">
             <h3 className="text-3xl font-bold text-gray-900">Our Story</h3>
             <p className="text-gray-600 leading-relaxed">
-              We started DigitalPro with a simple mission: to democratize digital marketing for small businesses. 
-              We noticed that many small business owners struggled with the complexity and cost of digital marketing, 
-              often missing out on the incredible opportunities the digital world offers.
+              We started NovaEdge with a simple mission: to provide innovative business solutions for growing companies. 
+              We noticed that many business owners struggled with the complexity and cost of modern business challenges, 
+              often missing out on the incredible opportunities for growth and optimization.
             </p>
             <p className="text-gray-600 leading-relaxed">
               Today, we're proud to have helped over 150 businesses transform their online presence, 

@@ -40,9 +40,9 @@ export const Footer = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
           <div className="lg:col-span-1">
-            <h3 className="text-2xl font-bold mb-4">DigitalPro</h3>
+            <h3 className="text-2xl font-bold mb-4">NovaEdge</h3>
             <p className="text-gray-300 mb-6 leading-relaxed">
-              Empowering small businesses with world-class digital marketing solutions that drive growth and success.
+              Empowering small businesses with innovative solutions and strategic expertise that drive growth and success.
             </p>
             <div className="space-y-2">
               <div className="flex items-center text-gray-300">
@@ -51,7 +51,7 @@ export const Footer = () => {
               </div>
               <div className="flex items-center text-gray-300">
                 <Mail className="h-4 w-4 mr-2" />
-                <span>hello@digitalpro.com</span>
+                <span>hello@novaedge.com</span>
               </div>
               <div className="flex items-center text-gray-300">
                 <MapPin className="h-4 w-4 mr-2" />
@@ -125,10 +125,10 @@ export const Footer = () => {
         <div className="border-t border-gray-800 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-300 text-sm">
-              © 2024 DigitalPro. All rights reserved. | Privacy Policy | Terms of Service
+              © 2024 NovaEdge. All rights reserved. | Privacy Policy | Terms of Service
             </p>
             <p className="text-gray-300 text-sm mt-4 md:mt-0">
-              Made with ❤️ for small businesses everywhere
+              Crafted with precision and care
             </p>
           </div>
         </div>

@@ -1,73 +1,90 @@
-# Welcome to your Lovable project
+# NovaEdge Business Website
 
-## Project info
+A professional, responsive business website built with modern technologies.
 
-**URL**: https://lovable.dev/projects/dac65a83-e9dd-4c56-b26c-baf77282f644
+## Project Information
 
-## How can I edit this code?
+**Business Name**: NovaEdge
+**Industry**: Business Solutions & Digital Services
 
-There are several ways of editing your application.
+## How to edit the code
 
-**Use Lovable**
+There are several ways of editing your app:
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/dac65a83-e9dd-4c56-b26c-baf77282f644) and start prompting.
+### Use your preferred code editor
 
-Changes made via Lovable will be committed automatically to this repo.
+If you want to work locally using your own IDE, you can clone this repo and push changes. This is the most flexible option for experienced developers.
 
-**Use your preferred IDE**
+First, make sure you have Node.js and npm installed on your machine. Then:
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
+1. Clone the repository
+```bash
+git clone <your-repository-url>
+cd your-project-name
 npm i
+```
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+2. Start the development server
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+Now you can edit the code in your preferred code editor and see the changes live at http://localhost:8080.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### Edit files directly in GitHub
 
-**Use GitHub Codespaces**
+For quick changes, you can edit files directly in GitHub:
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+1. Navigate to the file you want to edit
+2. Click the pencil icon (Edit this file)
+3. Make your changes
+4. Scroll down and click "Commit changes"
 
-## What technologies are used for this project?
+The changes will be automatically deployed to your site.
 
-This project is built with:
+### Use GitHub Codespaces
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+For a full IDE experience in your browser:
 
-## How can I deploy this project?
+1. Press the "." key on your GitHub repo page
+2. This opens a VS Code editor in your browser
+3. Make your changes and commit them using the source control panel
 
-Simply open [Lovable](https://lovable.dev/projects/dac65a83-e9dd-4c56-b26c-baf77282f644) and click on Share -> Publish.
+## Technologies Used
 
-## Can I connect a custom domain to my Lovable project?
+This project is built using:
 
-Yes, you can!
+- **Vite** - Fast build tool and development server
+- **TypeScript** - Type-safe JavaScript
+- **React** - User interface library
+- **shadcn-ui** - Beautiful UI components
+- **Tailwind CSS** - Utility-first CSS framework
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## Project Structure
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+```
+src/
+├── components/     # Reusable UI components
+├── pages/         # Page components
+├── lib/           # Utility functions
+└── hooks/         # Custom React hooks
+```
+
+## Features
+
+- 🎨 Modern, responsive design
+- 📱 Mobile-first approach
+- ⚡ Fast loading times
+- 🔧 Easy to customize
+- 📞 Contact form integration
+- 🎯 SEO optimized
+
+## Customization
+
+The website is built with a modular component structure, making it easy to:
+- Update content and copy
+- Modify styling and colors
+- Add new sections or pages
+- Integrate with backend services
+
+For styling customization, edit the `src/index.css` file and component-specific styles.
