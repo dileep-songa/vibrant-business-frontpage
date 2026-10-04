@@ -1,90 +1,124 @@
-# NovaEdge Business Website
+# Vibrant Business Frontpage
 
-A professional, responsive business website built with modern technologies.
+A modern business landing page designed to present a brand, service offering, or company in a polished and engaging way.
 
-## Project Information
+## Overview
 
-**Business Name**: NovaEdge
-**Industry**: Business Solutions & Digital Services
+This project is a clean, responsive frontpage for businesses, startups, agencies, and freelancers who want a professional online presence. It is structured to highlight value clearly and guide visitors toward action.
 
-## How to edit the code
+## Features
 
-There are several ways of editing your app:
+- Modern and vibrant design
+- Responsive layout for all devices
+- Clear hero section with call-to-action
+- Services and feature highlight blocks
+- Showcase section for projects or offerings
+- Testimonial section for trust and credibility
+- Contact-focused footer and CTA elements
+- Reusable component-based structure
 
-### Use your preferred code editor
+## Tech Stack
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. This is the most flexible option for experienced developers.
+- TypeScript
+- React
+- Vite
+- CSS / styling framework
 
-First, make sure you have Node.js and npm installed on your machine. Then:
+## Project Structure
 
-1. Clone the repository
 ```bash
-git clone <your-repository-url>
-cd your-project-name
-npm i
+vibrant-business-frontpage/
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── styles/
+│   ├── hooks/
+│   ├── lib/
+│   └── App.tsx
+├── public/
+│   └── assets/
+├── package.json
+├── tsconfig.json
+├── vite.config.ts
+├── README.md
+├── LICENSE
+└── .gitignore
 ```
 
-2. Start the development server
+## Getting Started
+
+### Prerequisites
+
+- Node.js 14+
+- npm or yarn
+
+### Installation
+
+```bash
+git clone https://github.com/dileep-songa/vibrant-business-frontpage.git
+cd vibrant-business-frontpage
+npm install
+```
+
+### Run the App
+
 ```bash
 npm run dev
 ```
 
-Now you can edit the code in your preferred code editor and see the changes live at http://localhost:8080.
+Then open the local URL shown in the terminal.
 
-### Edit files directly in GitHub
+### Production Build
 
-For quick changes, you can edit files directly in GitHub:
-
-1. Navigate to the file you want to edit
-2. Click the pencil icon (Edit this file)
-3. Make your changes
-4. Scroll down and click "Commit changes"
-
-The changes will be automatically deployed to your site.
-
-### Use GitHub Codespaces
-
-For a full IDE experience in your browser:
-
-1. Press the "." key on your GitHub repo page
-2. This opens a VS Code editor in your browser
-3. Make your changes and commit them using the source control panel
-
-## Technologies Used
-
-This project is built using:
-
-- **Vite** - Fast build tool and development server
-- **TypeScript** - Type-safe JavaScript
-- **React** - User interface library
-- **shadcn-ui** - Beautiful UI components
-- **Tailwind CSS** - Utility-first CSS framework
-
-## Project Structure
-
+```bash
+npm run build
 ```
-src/
-├── components/     # Reusable UI components
-├── pages/         # Page components
-├── lib/           # Utility functions
-└── hooks/         # Custom React hooks
-```
-
-## Features
-
-- 🎨 Modern, responsive design
-- 📱 Mobile-first approach
-- ⚡ Fast loading times
-- 🔧 Easy to customize
-- 📞 Contact form integration
-- 🎯 SEO optimized
 
 ## Customization
 
-The website is built with a modular component structure, making it easy to:
-- Update content and copy
-- Modify styling and colors
-- Add new sections or pages
-- Integrate with backend services
+You can customize the landing page by updating:
 
-For styling customization, edit the `src/index.css` file and component-specific styles.
+- company name and headline
+- color palette and branding
+- service descriptions and pricing sections
+- portfolio items and testimonials
+- contact information and CTA buttons
+
+## Deployment
+
+### Vercel
+
+```bash
+vercel
+```
+
+### Netlify
+
+Connect the GitHub repository to Netlify and deploy with the default static build pipeline.
+
+### GitHub Pages
+
+If configured for static hosting, publish the generated build folder after running:
+
+```bash
+npm run build
+```
+
+## Contributing
+
+Contributions are welcome. To contribute:
+
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Commit and push
+5. Open a pull request
+
+## License
+
+This project is licensed under the MIT License.
+
+## Contact
+
+- GitHub: [@dileep-songa](https://github.com/dileep-songa)
+- Repository: [dileep-songa/vibrant-business-frontpage](https://github.com/dileep-songa/vibrant-business-frontpage)
